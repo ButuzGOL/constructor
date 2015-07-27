@@ -1,0 +1,26 @@
+{
+  "name": "constructor",
+  "version": "0.0.1",
+  "description": "A set of UI pieces",
+  "repository": "ButuzGOL/constructor",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "lint": "eslint --ext .js,.jsx src/**",
+    "postinstall": "npm run lint && rm -rf lib && babel --stage 1 ./src --out-dir ./lib && browserify -r ./src/index.js:constructor --outfile ./lib/bundle.js --extension=.jsx && cp -R ./src/assets ./lib/assets",
+    "deploy": "npm --prefix ./docs install && npm --prefix ./docs run build && cp circle.ignore.yml ./docs/dist/circle.yml && npm --prefix ./docs run deploy"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "radium": "^0.13.0",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "airbnb-style": "^2.0.0",
+    "babel": "^5.5.6",
+    "babel-eslint": "^3.1.21",
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.0",
+    "eslint": "^0.24.0",
+    "eslint-plugin-react": "^2.6.4"
+  }
+}

@@ -1,0 +1,16 @@
+.tmp
+dist
+/build
+target
+.idea
+.grunt
+
+npm-debug.log
+node_modules
+
+build.log
+
+.DS_Store
+
+# Exclude compiled files
+/lib
