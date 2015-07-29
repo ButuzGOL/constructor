@@ -39,7 +39,7 @@ const config = {
   connect: {
     root: [paths.dist, paths.src],
     livereload: true,
-    port: 9006
+    port: 9009
   },
   styles: {
     src: paths.assets + '/styles/main.less',
@@ -149,7 +149,7 @@ gulp.task('deploy', () => {
 
 
 gulp.task('start', ['clean'], () => {
-  gulp.start(['connect', 'watchTask', 'watchify', 'styles', 'images', 'fonts', 'assets']);
+  gulp.start(['watchTask', 'styles', 'images', 'fonts', 'assets']);
 });
 
 gulp.task('build', ['clean'], () => {

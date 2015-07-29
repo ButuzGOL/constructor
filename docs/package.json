@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "gulp start",
+    "start": "node webpack.js",
     "build": "gulp build",
     "deploy": "gulp deploy",
     "postinstall": "rm -rf node_modules/react"
@@ -10,7 +10,9 @@
     "babel-loader": "^5.0.0",
     "babelify": "^6.0.2",
     "browserify": "^9.0.8",
+    "css-loader": "^0.15.6",
     "del": "^1.1.1",
+    "file-loader": "^0.8.4",
     "gulp": "^3.8.11",
     "gulp-autoprefixer": "2.2.0",
     "gulp-changed": "^1.2.1",
@@ -21,13 +23,21 @@
     "gulp-notify": "^2.2.0",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-uglify": "^1.2.0",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "react-hot-loader": "^1.2.8",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.2.0"
+    "watchify": "^3.2.0",
+    "webpack": "^1.10.5",
+    "webpack-dev-server": "^1.10.1"
   },
   "dependencies": {
     "normalize.css": "^3.0.3",
-    "react-router": "^0.13.3"
+    "react-router": "^0.13.3",
+    "uikit": "^2.21.0"
   },
   "browser": {
     "constructor": "../src/index.js"
