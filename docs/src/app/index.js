@@ -7,6 +7,6 @@ import routes from './routes';
 
 window.React = React;
 
-Router.run(routes, function(Handler) {
+Router.run(routes, (Handler) => {
   React.render(<Handler />, document.body);
 });

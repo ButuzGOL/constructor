@@ -68,11 +68,11 @@ export default class Master extends React.Component {
               </div>
 
               <div className="uk-width-medium-1-4">
-                  <div className="uk-panel">
-                      <img className="tm-image-pull" src="http://getuikit.com/docs/images/icon_components.svg" width="200" height="140" alt="Customizer" />
-                      <h2 className="uk-margin-top-remove">Customizer</h2>
-                      <p>You can easily create your own theme base on variables.</p>
-                  </div>
+                <div className="uk-panel">
+                  <img className="tm-image-pull" src="http://getuikit.com/docs/images/icon_components.svg" width="200" height="140" alt="Customizer" />
+                  <h2 className="uk-margin-top-remove">Customizer</h2>
+                  <p>You can easily create your own theme base on variables.</p>
+                </div>
               </div>
             </div>
           </div>
