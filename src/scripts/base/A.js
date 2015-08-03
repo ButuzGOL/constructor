@@ -31,7 +31,10 @@ export default class A extends React.Component {
 
     return (
       <a
-        style={this.getStyles()}
+        style={[
+          this.getStyles(),
+          props.style
+        ]}
         href={props.href}>
         {props.children}
       </a>
