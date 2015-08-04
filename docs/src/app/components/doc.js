@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { P, H2, H3, A, Hr } from 'constructor';
+import { P, H2, H3, A, Hr, Pre, Div, Code } from 'constructor';
 
 export default class Doc extends React.Component {
   static propTypes = {
@@ -35,7 +35,7 @@ export default class Doc extends React.Component {
     const styles = this.getStyles();
 
     return (
-      <div>
+      <Div>
         <H2>
           <A style={styles.linkReset}>{props.name}</A>
         </H2>
@@ -43,14 +43,25 @@ export default class Doc extends React.Component {
         {(typeof props.desc === 'string') ? (<P>props.desc</P>) : props.desc}
 
         {props.children ? (
-          <div>
+          <Div>
             <H3 style={styles.subTitle}>Example</H3>
             {props.children}
-          </div>
+          </Div>
+        ) : null}
+
+        {props.code ? (
+          <Div>
+            <H3 style={styles.subTitle}>Markup</H3>
+            <Pre>
+              <Code>
+                {props.code}
+              </Code>
+            </Pre>
+          </Div>
         ) : null}
 
         <Hr style={styles.articleDivider} />
-      </div>
+      </Div>
     );
   }
 }

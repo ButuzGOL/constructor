@@ -7,9 +7,8 @@ export default class Code extends React.Component {
   getStyles() {
     return {
       fontSize: variables.baseCodeFontSize,
-      fontFamily: variables.baseCodeFontFamily,
-      color: variables.baseCodeColor,
-      whiteSpace: 'nowrap'
+      fontFamily: variables.baseCodeFontFamily
+      // color: variables.baseCodeColor
     };
   }
 

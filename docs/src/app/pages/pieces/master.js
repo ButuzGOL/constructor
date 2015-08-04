@@ -17,8 +17,8 @@ export default class PiecesMaster extends React.Component {
                     label: 'Base',
                     href: '/pieces/base'
                   }, {
-                    label: 'Print',
-                    href: '/pieces/print'
+                    label: 'Badge',
+                    href: '/pieces/badge'
                   }]
                 }]} />
             </div>

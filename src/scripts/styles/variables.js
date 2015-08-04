@@ -1,5 +1,5 @@
 const baseMarginVertical = 15;
-
+const baseCodeFontFamily = 'Consolas, monospace, serif';
 export default {
   baseMarginVertical,
 
@@ -31,7 +31,7 @@ export default {
 
   baseCodeColor: '#D05',
   baseCodeFontSize: 12,
-  baseCodeFontFamily: 'Consolas, monospace, serif',
+  baseCodeFontFamily,
 
   baseInsBackground: '#ffa',
   baseInsColor: '#444',
@@ -52,5 +52,28 @@ export default {
   baseBlockquoteLineHeight: 22,
   baseBlockquoteFontStyle: 'italic',
 
-  baseListPaddingLeft: 30
+  baseListPaddingLeft: 30,
+
+  badgePaddingHorizontal: 5,
+  badgeBackground: '#00a8e6',
+  badgeFontSize: 10,
+  badgeFontWeight: 'bold',
+  badgeLineHeight: 14,
+  badgeColor: '#fff',
+  badgeTextTransform: 'none',
+  badgeHoverColor: '#fff',
+
+  badgeNotificationFontSize: 12,
+  badgeNotificationLineHeight: '18px',
+
+  badgeSuccessBackground: '#8cc14c',
+  badgeWarningBackground: '#faa732',
+  badgeDangerBackground: '#da314b',
+
+  basePrePadding: 10,
+  basePreBackground: '#f5f5f5',
+  basePreColor: '#444',
+  basePreFontSize: 12,
+  basePreLineHeight: '18px',
+  basePreFontFamily: baseCodeFontFamily
 };

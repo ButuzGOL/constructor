@@ -1,9 +1,12 @@
 import { H1, H2, H3, H4, H5, H6 } from './scripts/base/hn';
+import Span from './scripts/base/span';
+import Div from './scripts/base/div';
 import P from './scripts/base/p';
 import A from './scripts/base/a';
 import Em from './scripts/base/em';
 import Strong from './scripts/base/strong';
 import Code from './scripts/base/code';
+import Pre from './scripts/base/pre';
 import Del from './scripts/base/del';
 import Ins from './scripts/base/Ins';
 import Mark from './scripts/base/Mark';
@@ -15,9 +18,11 @@ import Hr from './scripts/base/hr';
 import Blockquote from './scripts/base/blockquote';
 import List from './scripts/base/list';
 import Img from './scripts/base/img';
+import Badge from './scripts/badge';
 
 export default {
   H1, H2, H3, H4, H5, H6,
-  P, A, Em, Strong, Code, Del, Ins, Mark, Q, Abbr, Dfn, Small,
-  Hr, Blockquote, List, Img
+  Span, Div, P, A, Em, Strong, Code, Pre, Del, Ins, Mark, Q, Abbr, Dfn, Small,
+  Hr, Blockquote, List, Img,
+  Badge
 };
