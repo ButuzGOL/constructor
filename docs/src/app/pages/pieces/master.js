@@ -19,6 +19,12 @@ export default class PiecesMaster extends React.Component {
                   }, {
                     label: 'Badge',
                     href: '/pieces/badge'
+                  }, {
+                    label: 'List',
+                    href: '/pieces/list'
+                  }, {
+                    label: 'Description List',
+                    href: '/pieces/description-list'
                   }]
                 }]} />
             </div>

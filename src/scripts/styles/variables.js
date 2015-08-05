@@ -75,5 +75,22 @@ export default {
   basePreColor: '#444',
   basePreFontSize: 12,
   basePreLineHeight: '18px',
-  basePreFontFamily: baseCodeFontFamily
+  basePreFontFamily: baseCodeFontFamily,
+
+  listLineMarginTop: 5,
+  listLineBorderWidth: 1,
+  listLineBorder: '#ddd',
+
+  listStripedPaddingVertical: 5,
+  listStripedPaddingHorizontal: 5,
+  listStripedBackground: '#f5f5f5',
+  listSpaceMarginTop: 10,
+
+  descriptionListHorizontalWidth: 160,
+  descriptionListHorizontalMarginLeft: 180,
+
+  descriptionListLineMarginTop: 5,
+  descriptionListLineBorderWidth: 1,
+  descriptionListLineBorder: '#ddd',
+  descriptionListLineColor: '#999'
 };
