@@ -10,6 +10,9 @@ const panelBoxSecondaryColor = '#444';
 const panelHoverBadgeTop = 10;
 const panelHoverPadding = 15;
 
+const blockPaddingVertical = 20;
+const blockPaddingVerticalLarge = 50;
+
 export default {
   baseMarginVertical,
 
@@ -106,6 +109,7 @@ export default {
 
   closeSize: 20,
 
+  // Panel
   panelTitleMarginBottom,
   panelTitleFontSize: 18,
   panelTitleLineHeight: '24px',
@@ -152,5 +156,18 @@ export default {
   panelDividerGutter: 25,
   panelDividerGutterLarge: 35,
   panelDividerBorder: '#ddd',
-  panelDividerBorderWidth: 1
+  panelDividerBorderWidth: 1,
+
+  // Block
+  blockPaddingVertical,
+  blockPaddingVerticalLarge,
+
+  blockLargePaddingVertical: blockPaddingVertical,
+  blockLargePaddingVerticalMedium: blockPaddingVerticalLarge,
+  blockLargePaddingVerticalLarge: 100,
+
+  blockDefaultBackground: '#fff',
+  blockMutedBackground: '#f9f9f9',
+  blockPrimaryBackground: '#00a8e6',
+  blockSecondaryBackground: '#222'
 };

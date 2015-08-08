@@ -23,10 +23,11 @@ import DescriptionList from './scripts/description-list';
 import Badge from './scripts/badge';
 import Close from './scripts/close';
 import Panel from './scripts/panel';
+import Block from './scripts/block';
 
 export default {
   H1, H2, H3, H4, H5, H6,
   Span, Div, P, A, Em, Strong, Code, Pre, Del, Ins, Mark, Q, Abbr, Dfn, Small,
   Hr, Blockquote, Img,
-  List, DescriptionList, Badge, Close, Panel
+  List, DescriptionList, Badge, Close, Panel, Block
 };

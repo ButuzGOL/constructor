@@ -15,8 +15,7 @@ export default class EnhancedH extends React.Component {
         fontFamily: variables.baseHeadingFontFamily,
         fontWeight: variables.baseHeadingFontWeight,
         color: variables.baseHeadingColor,
-        textTransform: variables.baseHeadingTextTransform,
-        marginTop: variables.baseHeadingMarginTop
+        textTransform: variables.baseHeadingTextTransform
       },
       h1: {
         fontSize: variables.baseH1FontSize,

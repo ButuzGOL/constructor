@@ -9,7 +9,7 @@ import { H3 } from './base/hn';
 @Radium
 export default class Panel extends React.Component {
   static propTypes = {
-    title: React.PropTypes.string.isRequired,
+    title: React.PropTypes.string,
     badge: React.PropTypes.element,
     type: React.PropTypes.oneOf(['default', 'primary', 'secondary']),
     box: React.PropTypes.bool,
@@ -156,12 +156,12 @@ export default class Panel extends React.Component {
           ]}>
             {props.badge}
           </Div>) : null}
-        <H3 style={[
-          styles.title,
-          props.box && styles.box.title,
-          props.header && styles.header.title,
-          styles.types[props.type].title
-        ]}>{props.title}</H3>
+        {props.title ? (<H3 style={[
+            styles.title,
+            props.box && styles.box.title,
+            props.header && styles.header.title,
+            styles.types[props.type].title
+          ]}>{props.title}</H3>) : null}
         <Div>
           {props.children}
         </Div>

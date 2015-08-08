@@ -28,6 +28,9 @@ export default class PiecesMaster extends React.Component {
                   }, {
                     label: 'Panel',
                     href: '/pieces/panel'
+                  }, {
+                    label: 'Block',
+                    href: '/pieces/block'
                   }]
                 }]} />
             </div>
