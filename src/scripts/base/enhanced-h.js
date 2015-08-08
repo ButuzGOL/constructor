@@ -51,9 +51,8 @@ export default class EnhancedH extends React.Component {
     return (
       <this.props.type style={[
         styles.base,
-        styles[this.props.type],
-        this.props.style
-      ]}>
+        styles[this.props.type]
+      ].concat(this.props.style)}>
         {this.props.children}
       </this.props.type>
     );

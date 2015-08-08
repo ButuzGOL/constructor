@@ -1,5 +1,15 @@
 const baseMarginVertical = 15;
 const baseCodeFontFamily = 'Consolas, monospace, serif';
+
+const panelTitleMarginBottom = 15;
+const panelBoxColor = '#444';
+const panelBoxBadgeTop = 10;
+const panelBoxPadding = 15;
+const panelBoxPrimaryColor = '#2d7091';
+const panelBoxSecondaryColor = '#444';
+const panelHoverBadgeTop = 10;
+const panelHoverPadding = 15;
+
 export default {
   baseMarginVertical,
 
@@ -92,5 +102,55 @@ export default {
   descriptionListLineMarginTop: 5,
   descriptionListLineBorderWidth: 1,
   descriptionListLineBorder: '#ddd',
-  descriptionListLineColor: '#999'
+  descriptionListLineColor: '#999',
+
+  closeSize: 20,
+
+  panelTitleMarginBottom,
+  panelTitleFontSize: 18,
+  panelTitleLineHeight: '24px',
+  panelTitleFontWeight: 'normal',
+  panelTitleColor: '#444',
+  panelTitleTextTransform: 'none',
+
+  panelTeaserMarginBottom: panelTitleMarginBottom,
+
+  panelBoxPadding,
+  panelBoxBackground: '#f5f5f5',
+  panelBoxColor,
+  panelBoxHoverColor: panelBoxColor,
+  panelBoxTitleColor: '#444',
+  panelBoxBadgeTop,
+  panelBoxBadgeRight: panelBoxBadgeTop,
+  panelBoxTeaserMargin: panelBoxPadding,
+
+  panelBoxPrimaryBackground: '#ebf7fd',
+  panelBoxPrimaryColor,
+  panelBoxPrimaryHoverColor: panelBoxPrimaryColor,
+  panelBoxPrimaryTitleColor: '#2d7091',
+
+  panelBoxSecondaryBackground: '#eee',
+  panelBoxSecondaryColor,
+  panelBoxSecondaryHoverColor: panelBoxSecondaryColor,
+  panelBoxSecondaryTitleColor: '#444',
+
+  panelHoverPadding,
+  panelHoverColor: '#444',
+  panelHoverHoverBackground: '#f5f5f5',
+  panelHoverHoverColor: '#444',
+  panelHoverBadgeTop,
+  panelHoverBadgeRight: panelHoverBadgeTop,
+  panelHoverTeaserMargin: panelHoverPadding,
+
+  panelHeaderTitlePadding: 10,
+  panelHeaderTitleBorder: '#ddd',
+  panelHeaderTitleBorderWidth: 1,
+  panelHeaderTitleColor: '#444',
+
+  panelSpacePadding: 30,
+
+  panelDividerGutter: 25,
+  panelDividerGutterLarge: 35,
+  panelDividerBorder: '#ddd',
+  panelDividerBorderWidth: 1
 };
