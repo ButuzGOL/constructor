@@ -1,7 +1,9 @@
 import React from 'react';
+import Radium from 'radium';
 
 import variables from '../styles/variables';
 
+@Radium
 export default class P extends React.Component {
 
   getStyles() {
@@ -13,7 +15,10 @@ export default class P extends React.Component {
 
   render() {
     return (
-      <p style={this.getStyles()}>
+      <p style={[
+        this.getStyles(),
+        this.props.style
+      ]}>
         {this.props.children}
       </p>
     );

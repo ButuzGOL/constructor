@@ -11,6 +11,7 @@ import ListPage from './pages/pieces/list';
 import DescriptionListPage from './pages/pieces/description-list';
 import PanelPage from './pages/pieces/panel';
 import BlockPage from './pages/pieces/block';
+import ArticlePage from './pages/pieces/article';
 
 export default (
   <Route path="/" handler={Master}>
@@ -22,6 +23,7 @@ export default (
       <Route path="description-list" handler={DescriptionListPage} />
       <Route path="panel" handler={PanelPage} />
       <Route path="block" handler={BlockPage} />
+      <Route path="article" handler={ArticlePage} />
     </Route>
   </Route>
 );

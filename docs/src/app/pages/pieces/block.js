@@ -8,7 +8,7 @@ import { Block, Panel, Div, H3 } from 'constructor';
 export default class BlockPage extends React.Component {
   render() {
     return (
-      <DocumentTitle title="Badge component - Constructor">
+      <DocumentTitle title="Block component - Constructor">
         <article className="uk-article">
           <h1 className="uk-article-title">Block</h1>
           <p className="uk-article-lead">Separate content sections by bundling them in blocks with different styles.</p>

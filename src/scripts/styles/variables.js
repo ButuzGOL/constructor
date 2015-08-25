@@ -169,5 +169,25 @@ export default {
   blockDefaultBackground: '#fff',
   blockMutedBackground: '#f9f9f9',
   blockPrimaryBackground: '#00a8e6',
-  blockSecondaryBackground: '#222'
+  blockSecondaryBackground: '#222',
+
+  // Article
+  // articleMarginTop: 25,
+
+  articleTitleFontSize: 36,
+  articleTitleLineHeight: '42px',
+  articleTitleFontWeight: 'normal',
+  articleTitleTextTransform: 'none',
+
+  articleMetaFontSize: 12,
+  articleMetaLineHeight: '18px',
+  articleMetaColor: '#999',
+
+  // articleLeadColor: '#444',
+  // articleLeadFontSize: 18,
+  // articleLeadLineHeight: 24,
+  // articleLeadFontWeight: 'normal',
+  //
+  // articleDividerMargin: 25,
+  // articleDividerBorder: '#ddd'
 };
