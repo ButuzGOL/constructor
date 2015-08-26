@@ -1,5 +1,7 @@
 import React from 'react';
+import Radium from 'radium';
 
+@Radium
 export default class Img extends React.Component {
   static propTypes = {
     src: React.PropTypes.string.isRequired,
@@ -27,7 +29,10 @@ export default class Img extends React.Component {
 
     return (
       <img
-        style={this.getStyles()}
+        style={[
+          this.getStyles(),
+          props.style
+        ]}
         src={props.src}
         width={props.width}
         height={props.height}

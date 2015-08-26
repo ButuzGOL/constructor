@@ -34,6 +34,9 @@ export default class PiecesMaster extends React.Component {
                   }, {
                     label: 'Article',
                     href: '/pieces/article'
+                  }, {
+                    label: 'Comment',
+                    href: '/pieces/comment'
                   }]
                 }]} />
             </div>

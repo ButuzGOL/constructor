@@ -190,4 +190,21 @@ export default {
   //
   // articleDividerMargin: 25,
   // articleDividerBorder: '#ddd'
+
+  // Comment
+  commentHeaderMarginBottom: 15,
+
+  commentAvatarMarginRight: 15,
+
+  commentTitleMarginTop: '5px',
+  commentTitleFontSize: 16,
+  commentTitleLineHeight: '22px',
+
+  commentMetaMarginTop: '2px',
+  commentMetaColor: '#999',
+  commentMetaFontSize: 11,
+  commentMetaLineHeight: '16px',
+
+  // commentListMarginTop: 15,
+  // commentListPaddingLeft: 100
 };
