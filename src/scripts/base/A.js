@@ -6,7 +6,8 @@ import variables from '../styles/variables';
 @Radium
 export default class A extends React.Component {
   static propTypes = {
-    href: React.PropTypes.string
+    href: React.PropTypes.string,
+    onClick: React.PropTypes.func
   };
 
   getStyles() {
@@ -32,10 +33,10 @@ export default class A extends React.Component {
     return (
       <a
         style={[
-          this.getStyles(),
-          props.style
-        ]}
-        href={props.href}>
+          this.getStyles()
+        ].concat(props.style)}
+        href={props.href}
+        onClick={props.onClick}>
         {props.children}
       </a>
     );

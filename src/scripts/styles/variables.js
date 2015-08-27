@@ -13,6 +13,9 @@ const panelHoverPadding = 15;
 const blockPaddingVertical = 20;
 const blockPaddingVerticalLarge = 50;
 
+const navPaddingVertical = '5px';
+const navPaddingHorizontal = '15px';
+
 export default {
   baseMarginVertical,
 
@@ -207,4 +210,75 @@ export default {
 
   // commentListMarginTop: 15,
   // commentListPaddingLeft: 100
+
+  // Nav
+  navPaddingVertical,
+  navPaddingHorizontal,
+
+  navHeaderPaddingVertical: navPaddingVertical,
+  navHeaderPaddingHorizontal: navPaddingHorizontal,
+  navHeaderFontSize: 12,
+  navHeaderFontWeight: 'bold',
+  navHeaderTextTransform: 'uppercase',
+  navHeaderMarginTop: 15,
+
+  navDividerMarginVertical: '9px',
+  navDividerMarginHorizontal: navPaddingHorizontal,
+
+  navSubtitleFontSize: '12px',
+  navSubtitleLineHeight: '18px',
+
+  navNestedPaddingLeft: 15,
+  navNestedPaddingVertical: '2px',
+  navNestedPaddingHorizontal: 0,
+
+  navSubPaddingVertical: '5px',
+  navSubPaddingLeft: navPaddingHorizontal,
+
+  navParentIcon: '\f104',
+  navParentOpenIcon: '\f107',
+  navParentIconWidth: 20,
+  navParentIconMarginRight: -10,
+
+  navSideColor: '#444',
+  navSideHoverBackground: 'rgba(0,0,0,0.05)',
+  navSideHoverColor: '#444',
+  navSideActiveBackground: '#00a8e6',
+  navSideActiveColor: '#fff',
+  navSideHeaderColor: '#444',
+  navSideDividerBorder: '#ddd',
+  navSideDividerBorderWidth: '1px',
+  navSideNestedColor: '#07D',
+  navSideNestedHoverColor: '#059',
+
+  navDropdownColor: '#444',
+  navDropdownHoverBackground: '#00a8e6',
+  navDropdownHoverColor: '#fff',
+  navDropdownHeaderColor: '#999',
+  navDropdownDividerBorder: '#ddd',
+  navDropdownDividerBorderWidth: 1,
+  navDropdownNestedColor: '#07D',
+  navDropdownNestedHoverColor: '#059',
+
+  navNavbarColor: '#444',
+  navNavbarHoverBackground: '#00a8e6',
+  navNavbarHoverColor: '#fff',
+  navNavbarHeaderColor: '#999',
+  navNavbarDividerBorder: '#ddd',
+  navNavbarDividerBorderWidth: 1,
+  navNavbarNestedColor: '#07D',
+  navNavbarNestedHoverColor: '#059',
+
+  navOffcanvasPaddingVertical: 10,
+  navOffcanvasPaddingHorizontal: 15,
+  navOffcanvasColor: '#ccc',
+  navOffcanvasHoverBackground: '#404040',
+  navOffcanvasHoverColor: '#fff',
+  navOffcanvasActiveBackground: '#1a1a1a',
+  navOffcanvasActiveColor: '#fff',
+  navOffcanvasHeaderColor: '#777',
+  navOffcanvasDividerBorder: '#1a1a1a',
+  navOffcanvasDividerBorderWidth: 1,
+  navOffcanvasNestedColor: '#ccc',
+  navOffcanvasNestedHoverColor: '#fff'
 };

@@ -13,6 +13,7 @@ import PanelPage from './pages/pieces/panel';
 import BlockPage from './pages/pieces/block';
 import ArticlePage from './pages/pieces/article';
 import CommentPage from './pages/pieces/comment';
+import OtherPage from './pages/pieces/other';
 
 export default (
   <Route path="/" handler={Master}>
@@ -26,6 +27,7 @@ export default (
       <Route path="block" handler={BlockPage} />
       <Route path="article" handler={ArticlePage} />
       <Route path="comment" handler={CommentPage} />
+      <Route path="other" handler={OtherPage} />
     </Route>
   </Route>
 );
