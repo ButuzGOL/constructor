@@ -16,6 +16,8 @@ const blockPaddingVerticalLarge = 50;
 const navPaddingVertical = '5px';
 const navPaddingHorizontal = '15px';
 
+const navbarNavHeight = '40px';
+
 export default {
   baseMarginVertical,
 
@@ -280,5 +282,58 @@ export default {
   navOffcanvasDividerBorder: '#1a1a1a',
   navOffcanvasDividerBorderWidth: 1,
   navOffcanvasNestedColor: '#ccc',
-  navOffcanvasNestedHoverColor: '#fff'
+  navOffcanvasNestedHoverColor: '#fff',
+
+  // NavBar
+  navbarBackground: '#eee',
+  navbarColor: '#444',
+  navbarLinkColor: '#07D',
+  navbarLinkHoverColor: '#059',
+
+  navbarNavHeight,
+  navbarNavLineHeight: navbarNavHeight,
+  navbarNavPaddingHorizontal: '15px',
+  navbarNavColor: '#444',
+  navbarNavFontSize: '14px',
+  navbarNavFontWeight: 'normal',
+  navbarNavFontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif',
+  navbarNavHoverBackground: '#f5f5f5',
+  navbarNavHoverColor: '#444',
+  navbarNavOnclickBackground: '#ddd',
+  navbarNavOnclickColor: '#444',
+  navbarNavActiveBackground: '#f5f5f5',
+  navbarNavActiveColor: '#444',
+  navbarNavSubtitleFontSize: '10px',
+  navbarNavSubtitleOffset: '2px',
+
+  navbarBrandFontSize: '18px',
+  navbarBrandColor: '#444',
+  navbarBrandHoverColor: '#444',
+
+  navbarToggleFontSize: '18px',
+  navbarToggleColor: '#444',
+  navbarToggleHoverColor: '#444',
+  navbarToggleIcon: '\f0c9',
+  navbarToggleIconAlt: '\f002',
+
+  dropdownZIndex: '970',
+  dropdownWidth: '200px',
+  dropdownMarginTop: '5px',
+  dropdownPadding: '15px',
+  dropdownBackground: '#f5f5f5',
+  dropdownColor: '#444',
+  dropdownFontSize: '1rem',
+  dropdownAnimation: 'uk-fade',
+
+  dropdownDividerBorderWidth: '1px',
+  dropdownDividerBorder: '#ddd',
+
+  dropdownSmallPadding: '5px',
+
+  dropdownNavbarMargin: '0',
+  dropdownNavbarBackground: '#f5f5f5',
+  dropdownNavbarColor: '#444',
+  dropdownNavbarAnimation: 'uk-slide-top-fixed',
+
+  dropdownScrollableHeight: '200px'
 };
