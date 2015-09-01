@@ -18,6 +18,8 @@ const navPaddingHorizontal = '15px';
 
 const navbarNavHeight = '40px';
 
+const subnavMarginHorizontal = '10px';
+
 export default {
   baseMarginVertical,
 
@@ -267,7 +269,7 @@ export default {
   navNavbarHoverColor: '#fff',
   navNavbarHeaderColor: '#999',
   navNavbarDividerBorder: '#ddd',
-  navNavbarDividerBorderWidth: 1,
+  navNavbarDividerBorderWidth: '1px',
   navNavbarNestedColor: '#07D',
   navNavbarNestedHoverColor: '#059',
 
@@ -335,5 +337,27 @@ export default {
   dropdownNavbarColor: '#444',
   dropdownNavbarAnimation: 'uk-slide-top-fixed',
 
-  dropdownScrollableHeight: '200px'
+  dropdownScrollableHeight: '200px',
+
+  // SubNav
+  subnavMarginHorizontal,
+  subnavMarginVertical: subnavMarginHorizontal,
+
+  subnavColor: '#444',
+  subnavHoverColor: '#07D',
+  subnavHoverTextDecoration: 'none',
+  subnavActiveColor: '#07D',
+
+  subnavLineBorderHeight: '10px',
+  subnavLineBorder: '#ddd',
+  subnavLineBorderWidth: '1px',
+
+  subnavPillPaddingVertical: '3px',
+  subnavPillPaddingHorizontal: '9px',
+  subnavPillHoverBackground: '#eee',
+  subnavPillHoverColor: '#444',
+  subnavPillActiveBackground: '#00a8e6',
+  subnavPillActiveColor: '#fff',
+
+  subnavDisabledColor: '#999'
 };

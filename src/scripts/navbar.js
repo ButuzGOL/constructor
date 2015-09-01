@@ -140,10 +140,6 @@ export default class NavBar extends React.Component {
           boxSizing: 'border-box',
           width: variables.dropdownWidth,
           padding: variables.dropdownPadding,
-          // marginTop: variables.dropdownMarginTop,
-
-          // background: variables.dropdownBackground,
-          // color: variables.dropdownColor,
           fontSize: variables.dropdownFontSize,
           verticalAlign: 'top',
 
