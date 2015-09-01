@@ -3,7 +3,7 @@ import DocumentTitle from 'react-document-title';
 
 import Doc from '../../components/doc';
 
-import { Nav, Panel, NavBar, SubNav, Breadcrumb } from 'constructor';
+import { Nav, Panel, NavBar, SubNav, Breadcrumb, Pagination } from 'constructor';
 
 export default class OtherPage extends React.Component {
   render() {
@@ -280,6 +280,10 @@ export default class OtherPage extends React.Component {
                 active: true
               }]}
             />
+
+            <Pagination
+              count={20}
+              current={20} />
           </Doc>
 
         </article>

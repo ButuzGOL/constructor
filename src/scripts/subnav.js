@@ -52,7 +52,8 @@ export default class SubNav extends React.Component {
           marginLeft: `-${variables.subnavMarginHorizontal}`,
           marginTop: `-${variables.subnavMarginVertical}`,
           padding: 0,
-          listStyle: 'none'
+          listStyle: 'none',
+          marginBottom: 0
         },
         after: {
           content: '',

@@ -30,11 +30,12 @@ import Nav from './scripts/nav';
 import NavBar from './scripts/navbar';
 import SubNav from './scripts/subnav';
 import Breadcrumb from './scripts/breadcrumb';
+import Pagination from './scripts/pagination';
 
 export default {
   H1, H2, H3, H4, H5, H6,
   Span, Div, P, A, Em, Strong, Code, Pre, Del, Ins, Mark, Q, Abbr, Dfn, Small,
   Hr, Blockquote, Img,
   List, DescriptionList, Badge, Close, Panel, Block, Article, Comment,
-  Nav, NavBar, SubNav, Breadcrumb
+  Nav, NavBar, SubNav, Breadcrumb, Pagination
 };

@@ -365,5 +365,24 @@ export default {
 
   // breadcrumbDivider: '/',
   breadcrumbDividerMargin: '8px',
-  breadcrumbDisabledColor: '#999'
+  breadcrumbDisabledColor: '#999',
+
+  // Pagination
+  paginationFontSize: '1rem',
+  paginationMarginLeft: '5px',
+  paginationPaddingVertical: '3px',
+  paginationPaddingHorizontal: '5px',
+  paginationLineHeight: '20px',
+  paginationBackground: '#eee',
+  paginationColor: '#444',
+  paginationHoverBackground: '#f5f5f5',
+  paginationHoverColor: '#444',
+  paginationOnclickBackground: '#ddd',
+  paginationOnclickColor: '#444',
+
+  paginationActiveBackground: '#00a8e6',
+  paginationActiveColor: '#fff',
+
+  paginationDisabledBackground: '#f5f5f5',
+  paginationDisabledColor: '#999'
 };
