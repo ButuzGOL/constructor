@@ -51,9 +51,7 @@ export default class Comment extends React.Component {
         fontSize: variables.commentMetaFontSize,
         lineHeight: variables.commentMetaLineHeight,
         color: variables.commentMetaColor
-      },
-      body: {},
-      primary: {}
+      }
     };
   }
 

@@ -3,7 +3,7 @@ import DocumentTitle from 'react-document-title';
 
 import Doc from '../../components/doc';
 
-import { Nav, Panel, NavBar } from 'constructor';
+import { Nav, Panel, NavBar, SubNav } from 'constructor';
 
 export default class OtherPage extends React.Component {
   render() {
@@ -186,6 +186,82 @@ export default class OtherPage extends React.Component {
                   }]
                 }]}
               />
+
+              <br />
+
+              <SubNav
+                pill={true}
+                items={[{
+                  label: 'Item',
+                  href: '#',
+                  active: true
+                }, {
+                  label: 'Item',
+                  href: '#'
+                }, {
+                  label: 'Item',
+                  href: '#',
+                  disabled: true
+                }, {
+                  label: 'Item',
+                  children: [{
+                    label: 'Header',
+                    type: 'header'
+                  }, {
+                    label: 'Active',
+                    subLabel: 'Subtitle',
+                    active: true,
+                    href: '#'
+                  }, {
+                    label: 'Item',
+                    href: '#'
+                  }, {
+                    label: 'Header',
+                    type: 'header'
+                  }, {
+                    label: 'Parent',
+                    type: 'parent',
+                    collapsed: true,
+                    children: [{
+                      label: 'Sub item',
+                      href: '#'
+                    }, {
+                      label: 'Sub item',
+                      href: '#',
+                      children: [{
+                        label: 'Sub item',
+                        href: '#'
+                      }, {
+                        label: 'Sub item',
+                        href: '#'
+                      }]
+                    }]
+                  }, {
+                    label: 'Parent',
+                    type: 'parent',
+                    collapsed: false,
+                    children: [{
+                      label: 'Sub item',
+                      href: '#'
+                    }, {
+                      label: 'Sub item',
+                      href: '#',
+                      children: [{
+                        label: 'Sub item',
+                        href: '#'
+                      }, {
+                        label: 'Sub item',
+                        href: '#'
+                      }]
+                    }]
+                  }, {
+                    type: 'divider'
+                  }, {
+                    label: 'Item',
+                    subLabel: 'Subtitle',
+                    href: '#'
+                  }]
+                }]} />
           </Doc>
 
         </article>
