@@ -359,5 +359,11 @@ export default {
   subnavPillActiveBackground: '#00a8e6',
   subnavPillActiveColor: '#fff',
 
-  subnavDisabledColor: '#999'
+  subnavDisabledColor: '#999',
+
+  breadcrumbFontSize: '1rem',
+
+  // breadcrumbDivider: '/',
+  breadcrumbDividerMargin: '8px',
+  breadcrumbDisabledColor: '#999'
 };
